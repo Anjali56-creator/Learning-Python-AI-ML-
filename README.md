@@ -45,3 +45,45 @@ Some of the resources I use:
 
 
 
+
+
+   # 🤖 Python Chatbot — by Anjali
+
+A simple, interactive, and engaging Python-based chatbot that responds to user queries, tells jokes, shows date/time, performs small tasks, and even learns new responses.  
+This project is built using *pure Python* and runs in the console.
+
+---
+
+## ✨ Features
+
+- 👋 Greets the user based on the current time  
+- 🤝 Interactive typing effect  
+- 🔁 Continuous conversation loop  
+- 😂 Tells random jokes  
+- 💡 Motivates you  
+- 📅 Shows date & time  
+- ➕ Performs simple calculations  
+- 🧠 Learns new answers (self-learning mode)  
+- 😊 Friendly personality with emojis  
+- 🔤 Case-insensitive input handling  
+
+---
+
+## 🛠️ Technologies Used
+- **Python 3**
+- `datetime`  
+- `random`
+- `sys`
+- `time`
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/chatbot.git
+
+
+
+
