@@ -1,0 +1,37 @@
+import datetime
+import time
+
+name=input("welcome ,enter your name:  ")
+presentHour=datetime.datetime.now().hour
+
+if 5<=presentHour<=11:
+    print("Good morning,",name)
+if 11<=presentHour<=17:
+    print("Good afternoon,",name)
+if 17<=presentHour<=20:
+    print("Good evening,",name)
+
+
+print("namaste!Welcome to your ChatBot" )
+print("you can ask me basic question")
+
+
+responses={
+    "hello":"hi,How can i help you?",
+    "bye": "Goodbye!",
+    "name": "I am your chatbot.",
+    "joke": "Why don't programmers like nature? It has too many bugs!",
+    "creator": "I was created by Anjali.",
+    "more joke": "Why did the computer catch a cold? Because it left its Windows open!",
+}
+
+def getresponses(userquestion):
+    userquestion=userquestion.lower()
+    for eachkey in responses:
+        if eachkey in userquestion:
+            return responses[eachkey]
+    return "i am not able to tell you about that at this time,I am still in learning phase"
+
+userinput=input("please ask your question:")
+reply=getresponses(userinput)
+print("chatbot:",reply)
