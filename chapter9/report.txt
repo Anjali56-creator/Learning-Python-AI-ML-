@@ -1,0 +1,3 @@
+this the first append line the main difference b/w write and append is write overwrites the text whereas append just adds the texr.
+this is the first line of the report.
+this is the second line of the report.
